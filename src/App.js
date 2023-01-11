@@ -1,17 +1,16 @@
-import Hello from './Hello'
-import Venkat from './Venkat'
+ import Hello from './components/Hello'
+import Venkat from './components/Venkat'
 function App(){
-    return <div>
-        <h1>hello, good morning</h1>
+    return <div> 
+        <h1>App, Compounent</h1>
         <hr />
-        <Hello />
-
-        <hr />
-        <Venkat />
+        <Hello />   
+<br />
+        <hr />   
+        <Venkat /> 
         </div>
         
-}
+}    
 
 export default App;
-
-
+ 
