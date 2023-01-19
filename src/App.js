@@ -1,22 +1,24 @@
- import Hello from './components/Hello'
+/*  import Hello from './components/Hello'
 import Venkat from './components/Venkat'
-import Manohar from './components/Manohar'
+import Manohar from './components/Manohar' */
+import CompaA from './components/CompaA' 
 function App(){
     return <div> 
         <h1>App, Compounent</h1>
         <hr />
         <hr />
         <h1>Manohar</h1>
-        <Manohar />
+        <hr />
+        < CompaA />
+        {/* <Manohar /> */}
         <hr />
         <hr />
-        <Hello />   
+        {/* <Hello />    */}
         <h1>hai </h1>
-<br />
         <hr />   
         <hr />   
 
-        <Venkat /> 
+        {/* <Venkat />  */}
 
         </div>
         

@@ -11,6 +11,7 @@ class Venkat extends React.Component {
         return <div>
             <h1> venkat compounant </h1>
             <h1> {this.state.name} </h1>
+            <h1> {this.state.name} </h1>
             <img src={this.state.link} alt="" />
         </div>
 
