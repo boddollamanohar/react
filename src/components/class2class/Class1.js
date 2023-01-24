@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Class2 from './Class2'
-
 export class Class1 extends Component {
     name='manohar'
     email='iambmanohar@gmail.com'
