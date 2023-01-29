@@ -1,33 +1,40 @@
-import React from "react";
-class Product extends React.Component {
-state ={
-    p_Name: "HP",
-    P_cost : 50000,
-    p_model: "i7"
+import React from 'react'
+
+const Product = () => {
+    let [product, setProduct] = React.useState({
+        product_Name: "Iphoe 99",
+        price: 45000,
+        qty: 1
+    })
+    let incrHandler = () => {
+        setProduct({ ...product, qty: product.qty + 1 })
+    }
+    return <div className="container">
+        <div className="row">
+            <div className="col-md-6">
+                <table className="table">
+                    <thead className="bg-primary text-white">
+                        <tr>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>QTY</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>{product.product_Name}</td>
+                            <td>{product.price}</td>
+                            <td><i className="fa fa-minus-circle" onClick={() => {
+                                setProduct({ ...product, qty: product.qty - 1 })
+                            }}></i>{product.qty}<i className="fa fa-plus-circle" onClick={incrHandler} ></i></td>
+                            <td>{product.qty * product.price}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 }
 
-
- render() {
-             return (
-                <div>
-                     <nav > 
-                        Products 
-                   </nav>
-                   <h1> product Details</h1>
-                  
-                    <table>
-   
-                    </table>
-
-
-                </div>
-             )
-
-
-
-
-             
-    
-}
-}
-export default Product 
+export default Product
