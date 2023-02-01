@@ -9,6 +9,9 @@ class UserDetails extends Component {
                 <div className="card">
                     <div className="card-header">
                         <img src={this.props.user.image} alt="" />
+                        <img src={this.props.user.image} alt="" />
+                        <img src={this.props.user.image} alt="" />
+                        <img src={this.props.user.image} alt="" />
                     </div>
                     <div className="card-body">
                         <ul className="list-group">
