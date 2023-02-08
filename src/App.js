@@ -2,6 +2,7 @@ import React from 'react'
 import Product from './product/Product'
 import { store } from './redux/Store'
 import { Provider } from 'react-redux'
+import Counter from './components/Counter'
 const App = () => {
     return (
         <div>
@@ -10,6 +11,7 @@ const App = () => {
                 <hr />
                 <Product />
             </Provider>
+            <Counter/>
         </div>
     )
 }
