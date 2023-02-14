@@ -1,18 +1,16 @@
-import React from 'react'
-// import Product from './product/Product'
-// import { store } from './redux/Store'
-// import { Provider } from 'react-redux'
-// import Counter from './components/Counter'
-import Login from '../src/product/Hooks/Login'
-// import Sign from '../src/product/Hooks/Sign'
-const App = () => {
-    return (      
-       <div>
-<Login/>
-{/* <Sign/> */}
-
-       </div>
+import React, { Component } from 'react'
+import { BrowserRouter as Router , Route , Routes } from 'react-router-dom'
+import Navbar from './practice/Navbar'
+ class App extends Component {
+  render() {
+    return (
+      <div>
+        <Router>
+<Navbar/>
+        </Router>
+      </div>
     )
+  }
 }
 
 export default App
