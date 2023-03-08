@@ -11,7 +11,8 @@ import React, { Component } from 'react'
             <h1> Employee Details</h1>
  <div><input type="text" placeholder='Ename' /></div>
  <div><input type="text" placeholder='EmailId' /></div>
- <div><input type="text" placeholder='Phone' /></div>
+ <div><input type="text" placeholder='Phone' /> </div>
+ <div><input type="text" placeholder='eid' /> </div>
  <div><input type="submit" value='login' /></div>
 
         </div>
