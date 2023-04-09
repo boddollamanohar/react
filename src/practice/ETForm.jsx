@@ -43,6 +43,8 @@ const ETForm = ({ track, settrack }) => {
             <div className='col col-md-6 m-md-auto'>
                 <div className='gutter-gap'>
                     <h1 className='text-center border p-2'>Expense Tracker - Basic</h1>
+                    <h1 className='text-center border p-2'>Expense Tracker - Basic</h1>
+                    <h1 className='text-center border p-2'>Expense Tracker - Basic</h1>
                     <form className='border p-2 mt-5'>
                         <h3 className='text-center'>Balance: {TotalAMT}</h3>
                         <div className='mb-3'>
