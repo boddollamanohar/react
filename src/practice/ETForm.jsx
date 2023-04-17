@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const ETForm = ({ track, settrack }) => {
     const [TotalAMT, setTotalAMT] = useState(0);
-    const [InputValue, setInputValue] = useState(1000);// validation state
+    const [InputValue, setInputValue] = useState(10000);// validation state
     const total = parseInt(TotalAMT);
     const value = parseInt(InputValue);
     const date = new Date().toLocaleString();
